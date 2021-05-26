@@ -21,14 +21,7 @@ Run this line at the MySQL Shell:
 
 mysql> SHOW VARIABLES LIKE "secure_file_priv";
 
-You will get something like this:
-
-=> 
-+------------------+-----------------------------------------------------------------+ 
-| Variable_name    | Value                                                           |
-+------------------+-----------------------------------------------------------------+
-| secure_file_priv | C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\                  | 
-+------------------+-----------------------------------------------------------------+
+You will get a path like: C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\ 
 
 You will need this path to load the data.
 
